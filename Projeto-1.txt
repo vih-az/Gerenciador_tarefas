@@ -1,0 +1,15 @@
+### **Sistema de Gerenciamento de Tarefas**
+
+Desenvolver um sistema web simples para permitir que os usuários gerenciem suas tarefas diárias de forma eficiente.
+
+### Requisitos
+
+1. **Cadastro de Usuários:**
+    - O sistema deve permitir o cadastro de usuários com nome, e-mail e senha.
+2. **Login:**
+    - Os usuários devem ser capazes de fazer login no sistema usando seu e-mail e senha.
+3. **Tarefas:**
+    - Cada usuário pode criar, visualizar, editar e excluir suas próprias tarefas.
+    - Cada tarefa deve ter um título, descrição e data de conclusão.
+4. **Página Inicial:**
+    - Uma página inicial deve exibir as tarefas pendentes e concluídas do usuário.
