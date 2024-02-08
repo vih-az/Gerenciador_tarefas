@@ -1,0 +1,38 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    background: rgb(210,234,255);
+    background: linear-gradient(180deg, rgba(210,234,255,1) 37%, rgba(255,211,211,1) 90%);
+}
+
+main{
+    height: 100%;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+}
+
+.container-header{
+    /* width: 100vw; */
+    gap: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-header img{
+    width: 295px;
+}
+
+.container-header h1{
+    font-family: 'Titan One', sans-serif;
+    text-shadow: 2px 0px 0px #97A8FF;
+    font-size: 4rem;
+    color: #573445;
+}
