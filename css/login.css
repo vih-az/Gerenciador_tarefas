@@ -1,0 +1,67 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    background: rgb(210,234,255);
+    background: linear-gradient(180deg, rgba(210,234,255,1) 37%, rgba(255,211,211,1) 90%);
+}
+
+main{
+    height: 100%;
+}
+
+.container-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Happy Monkey", system-ui;
+    gap: 20px;
+}
+
+.container-conteudo{
+text-align: center;
+font-family: "Happy Monkey", system-ui;
+}
+
+input{
+background-color: transparent;
+padding-left: 32px;
+border-bottom: solid #A36180 1px;
+border-top: none;
+border-right: none;
+border-left: none;
+height: 30px;
+color: #A36180;
+
+}
+
+#email{
+    background-image: url(../img/flor.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+}
+
+#senha{
+    background-image: url(../img/cadeado.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+}
+
+input::placeholder{
+    color: #A36180;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.container-info{
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+input:focus{
+    border:none;
+    outline: none;
+    border-bottom: solid #A36180;
+}
