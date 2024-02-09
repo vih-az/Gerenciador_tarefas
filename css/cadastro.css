@@ -4,3 +4,42 @@ body{
     background: rgb(210,234,255);
     background: linear-gradient(180deg, rgba(210,234,255,1) 37%, rgba(255,211,211,1) 90%);
 }
+
+main{
+    width: 100%;
+    height: 100%;
+}
+
+.container{
+    height: 100%;
+}
+
+.container-header{
+    position: absolute;
+    z-index: -1;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 31px 0 0 17px;
+}
+
+.container-header h2{
+    font-weight: lighter;
+    font-family: 'Happy Monkey', system-ui;
+}
+
+.container-main{
+    height: 100%;
+    justify-content: space-between;
+}
+
+.container-main, .input-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-info{
+    align-items: self-start;
+}
