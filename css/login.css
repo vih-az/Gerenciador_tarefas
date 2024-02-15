@@ -18,20 +18,29 @@ main{
     gap: 20px;
 }
 
+.container-logo h1{
+    color: #4B6E87;
+}
+
 .container-conteudo{
-text-align: center;
-font-family: "Happy Monkey", system-ui;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-direction: column;
+    text-align: center;
+    font-family: "Happy Monkey", system-ui;
 }
 
 input{
-background-color: transparent;
-padding-left: 32px;
-border-bottom: solid #A36180 1px;
-border-top: none;
-border-right: none;
-border-left: none;
-height: 30px;
-color: #A36180;
+    background-color: transparent;
+    padding-left: 32px;
+    border-bottom: solid #A36180 1px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    height: 30px;
+    color: #A36180;
 
 }
 
@@ -64,4 +73,13 @@ input:focus{
     border:none;
     outline: none;
     border-bottom: solid #A36180;
+}
+
+.container-info button{
+    border: none;
+}
+
+.container-info p{
+    font-size: 14px;
+    font-family: "Roboto Condensed", sans-serif;
 }

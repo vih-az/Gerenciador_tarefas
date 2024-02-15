@@ -7,17 +7,18 @@ async function validarLogin() {
     if (email === '' || senha === '') {
         alert('preencha os campos corretamente')
     } else {
-        const users = await fetch('http://localhost:5080/usuario')
-        const listUsers = await users.json()
+            const users = await fetch('http://localhost:5080/usuario')
+            const listUsers = await users.json()
 
-        listUsers.forEach((user) => {
-            if (email === user.email && senha === user.senha) {
-                alert('Usuario logado com sucesso !!!')
-                window.location.href = '../html/index.html'
+            listUsers.forEach((user) => {
+                if (email === user.email && senha === user.senha) {
+                    alert('Usuario logado com sucesso !!!')
+                    window.location.href = '../html/index.html'
 
-                console.log(listUsers)
-            }
-        })
+                    console.log(user.email)
+                }
+            })
+        
     }
 }
 
