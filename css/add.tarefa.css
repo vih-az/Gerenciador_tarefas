@@ -1,0 +1,43 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    background: rgb(210,234,255);
+    background: linear-gradient(0deg, rgba(210,234,255,1) 16%, rgba(255,211,211,1) 42%);
+}
+
+header{
+    height: 26vh;
+    display: flex;
+    align-items: center;
+   
+}
+
+.container-titulo{
+    height: 20vh;
+    width: 68vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Happy Monkey", system-ui;
+    color: #4B6E87;
+}
+
+.container-criar-tarefa{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.fundo{
+    
+    height: 60vh;
+    width: 40vw;
+    background-color: #B0BFDF;
+    border-radius: 20px;
+   
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+}
