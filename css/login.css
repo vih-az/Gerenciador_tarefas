@@ -9,6 +9,15 @@ main{
     height: 100%;
 }
 
+.main-container{
+    height: 100%;
+    gap: 87px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 45px;
+}
+
 .container-logo{
     display: flex;
     justify-content: center;
@@ -19,7 +28,14 @@ main{
 }
 
 .container-logo h1{
+    font-size: 32px;
+    font-weight: normal;
     color: #4B6E87;
+}
+
+.container-logo h2{
+    font-size: 16px;
+    font-weight: bold;
 }
 
 .container-conteudo{
@@ -33,13 +49,15 @@ main{
 }
 
 input{
+    width: 356px;
+    height: 30px;
+    font-size: 18px;
     background-color: transparent;
     padding-left: 32px;
     border-bottom: solid #A36180 1px;
     border-top: none;
     border-right: none;
     border-left: none;
-    height: 30px;
     color: #A36180;
 
 }
