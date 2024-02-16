@@ -21,7 +21,7 @@ main{
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding: 31px 0 0 17px;
+    padding: 31px 0 0 27px;
 }
 
 .container-header h2{
@@ -31,6 +31,7 @@ main{
 
 .container-main{
     height: 100%;
+    padding-top: 20px;
     justify-content: space-between;
 }
 
@@ -40,6 +41,29 @@ main{
     align-items: center;
 }
 
+label{
+    color: #A36180;
+    font-family: 'Happy Monkey', system-ui;
+    padding-block: 15px 5px;
+}
+
+input{
+    width: 540px;
+    height: 50px;   
+    border: 4px solid #A3B8C4;
+    border-radius: 20px;
+    outline: none;
+    background-color: transparent;
+    padding-left: 10px;
+    font-family: 'Happy Monkey', system-ui;
+}
+
 .input-info{
     align-items: self-start;
+}
+
+.container-btn{
+    align-self: flex-end;
+    padding-right: 50px;
+    padding-bottom: 15px;
 }

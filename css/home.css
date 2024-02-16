@@ -1,0 +1,44 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #D2EAFF;
+}
+
+header{
+    width: 100%;
+}
+
+.header-container{
+    width: 100%;
+    height: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 38px;
+}
+
+.title-tasks-center-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #435D69;
+    font-family: 'Happy Monkey', system-ui;
+}
+
+.line{
+    width: 353px;
+    height: 2px;
+    background-color: #435D69;
+}
+
+.menu-search-trash-right-side-container{
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    padding-right: 38px;
+}
+
+.menu-search-trash-right-side-container #search, #trash, #menu{
+    cursor: pointer;
+}

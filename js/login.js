@@ -7,13 +7,15 @@ async function validarLogin() {
     if (email === '' || senha === '') {
         alert('preencha os campos corretamente')
     } else {
-        const users = await fetch('http://localhost:5080/usuario')
+        const url = 'http://localhost:5080/usuario'
+        const users = await fetch(url)
         const listUsers = await users.json()
+        console.log(listUsers)
 
         listUsers.forEach((user) => {
             if (email === user.email && senha === user.senha) {
                 alert('Usuario logado com sucesso !!!')
-                window.location.href = '../html/index.html'
+                window.location.href = "../html/index.html"
 
                 console.log(listUsers)
             }
