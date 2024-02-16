@@ -7,6 +7,7 @@ async function validarLogin() {
     if (email === '' || senha === '') {
         alert('preencha os campos corretamente')
     } else {
+<<<<<<< HEAD
         const url = 'http://localhost:5080/usuario'
         const users = await fetch(url)
         const listUsers = await users.json()
@@ -16,10 +17,20 @@ async function validarLogin() {
             if (email === user.email && senha === user.senha) {
                 alert('Usuario logado com sucesso !!!')
                 window.location.href = "../html/index.html"
+=======
+            const users = await fetch('http://localhost:5080/usuario')
+            const listUsers = await users.json()
 
-                console.log(listUsers)
-            }
-        })
+            listUsers.forEach((user) => {
+                if (email === user.email && senha === user.senha) {
+                    alert('Usuario logado com sucesso !!!')
+                    window.location.href = '../html/index.html'
+>>>>>>> ffadf99699527d05163c715294dc381607839bcf
+
+                    console.log(user.email)
+                }
+            })
+        
     }
 }
 
