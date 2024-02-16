@@ -1,6 +1,6 @@
 body{
     width: 100vw;
-    height: 100vh;
+    /* height: 100vh; */
     background-color: #D2EAFF;
 }
 
@@ -41,4 +41,33 @@ header{
 
 .menu-search-trash-right-side-container #search, #trash, #menu{
     cursor: pointer;
+}
+
+main{
+    padding-left: 133px;
+}
+
+.tasks-pendentes{
+    display: flex;
+    gap: 54px;
+}
+
+.task-container, .add-task-container{
+    width: 185px;
+    height: 208px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(231, 169, 169, 53%);
+    border-radius: 10px;
+}
+
+.task-container h4{
+    font-size: 1rem;
+    font-family: 'Happy Monkey', system-ui;
+}
+
+.task-container h5, .add-task-container h2{
+    font-family: "Roboto Condensed", sans-serif;
 }
