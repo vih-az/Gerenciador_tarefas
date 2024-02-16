@@ -95,11 +95,11 @@ input:focus{
     border: none;
 }
 
-.container-info p{
+.container-btn p{
     font-size: 14px;
     font-family: "Roboto Condensed", sans-serif;
 }
 
 .container-btn{
-    gap: 20px;
+    gap: 18px;
 }
