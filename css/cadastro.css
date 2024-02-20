@@ -35,7 +35,7 @@ main{
     justify-content: space-between;
 }
 
-.container-main, .input-info{
+.container-main, fieldset{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -48,7 +48,7 @@ label{
 }
 
 input{
-    width: 540px;
+    width: 100%;
     height: 50px;   
     border: 4px solid #A3B8C4;
     border-radius: 20px;
@@ -58,8 +58,13 @@ input{
     font-family: 'Happy Monkey', system-ui;
 }
 
-.input-info{
+form{
+    width: 40%;
+}
+
+fieldset{
     align-items: self-start;
+    border: none;
 }
 
 .container-btn{
