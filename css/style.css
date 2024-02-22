@@ -10,15 +10,17 @@ main{
 }
 
 .main-container{
+    height: 100%;
+    gap: 57px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     padding-top: 25px;
+    padding-bottom: 39px;
 }
 
 .container-header{
-    /* width: 100vw; */
     gap: 17px;
     display: flex;
     justify-content: center;
@@ -32,7 +34,35 @@ main{
 
 .container-header h1{
     font-family: 'Titan One', sans-serif;
-    text-shadow: 2px 0px 0px #97A8FF;
+    text-shadow: 4px 1px 0px #97A8FF;
     font-size: 4rem;
     color: #573445;
+}
+
+.container-main{
+    gap: 87px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-main h2{
+    font-family: 'Happy Monkey', system-ui;
+    font-size: 2.5rem;
+    color: #A36180;
+    font-weight: lighter;
+}
+
+.container-footer{
+    gap: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-footer h4{
+    font-size: 14px;
+    font-family: 'Roboto Condensed', sans-serif;
 }

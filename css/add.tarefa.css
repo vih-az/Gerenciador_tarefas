@@ -6,6 +6,7 @@ body{
 }
 
 header{
+    width: 100%;
     height: 26vh;
     display: flex;
     align-items: center;
@@ -20,6 +21,11 @@ header{
     justify-content: center;
     font-family: "Happy Monkey", system-ui;
     color: #4B6E87;
+    padding-right: 32px;
+}
+
+.container-titulo h1{
+    padding-right: 84px;
 }
 
 .container-criar-tarefa{
@@ -29,15 +35,84 @@ header{
 }
 
 .fundo{
-    
     height: 60vh;
-    width: 40vw;
+    width: 50vw;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
     background-color: #B0BFDF;
     border-radius: 20px;
    
 }
 
-.right{
+form{
+    width: 100%;
+    height: 100%;
+}
+
+fieldset{
+    height: 100%;
+    width: 100%;
     display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    border: none;
+}
+
+.left, .right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
     flex-direction: column;
+}
+
+.right input{
+    padding-right: 4px;
+}
+
+#task-title, #task-date-inc{
+    background-color: #FFD3D3;
+}
+
+#task-description, #task-date-fin{
+    background-color: #FCD5DB;
+}
+
+label[for="task-pic"]{
+    width: 80%;
+    margin-top: 14%;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #EFDCEA;
+}
+
+input[type="file"]{
+    display: none;
+}
+
+label{
+    width: 100%;
+    font-size: 20px;
+    font-family: "Happy Monkey", system-ui;
+    padding: 17px 0 14px 10%;
+}
+
+input{
+    width: 80%;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: "Happy Monkey", system-ui;
+    outline: none;
+    padding-left: 4px;
+}
+
+button{
+    margin-top: 14%;
+    cursor: pointer;
+}
+
+button, input{
+    border: none;
 }

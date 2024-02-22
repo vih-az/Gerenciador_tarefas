@@ -1,6 +1,42 @@
+.btn-default{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5F4F4;
+    box-shadow: 0 4px 4px 0 rgb(32, 118, 248, 25%);
+}
+
 .botao{
     width: 200px;
     height: 79px;
-    background-color: #F5F4F4;
+    border-radius: 20px;
+    font-family: 'Happy Monkey', system-ui;
+    font-size: 2rem;
+    color: #4B6E87;
+}
+
+.cadastro{
+    width: 99px;
+    height: 28px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.criar-cadastro{
+    width: 174px;
+    height: 67px;
+    border-radius: 20px;
+    font-family: 'Happy Monkey', system-ui;
+    font-size: 1.625rem;
+    color: #4B6E87;
+}
+
+.add-task{
+    width: 321px;
+    height: 73px;
+    border-radius: 20px;
+    font-family: 'Happy Monkey', system-ui;
+    font-size: 26px;
     color: #4B6E87;
 }

@@ -9,6 +9,15 @@ main{
     height: 100%;
 }
 
+.main-container{
+    height: 100%;
+    gap: 87px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 45px;
+}
+
 .container-logo{
     display: flex;
     justify-content: center;
@@ -18,20 +27,34 @@ main{
     gap: 20px;
 }
 
-.container-conteudo{
-text-align: center;
-font-family: "Happy Monkey", system-ui;
+.container-logo h1{
+    font-size: 32px;
+    font-weight: normal;
+    color: #4B6E87;
+}
+
+.container-logo h2{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.container-input{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
 }
 
 input{
-background-color: transparent;
-padding-left: 32px;
-border-bottom: solid #A36180 1px;
-border-top: none;
-border-right: none;
-border-left: none;
-height: 30px;
-color: #A36180;
+    width: 356px;
+    height: 30px;
+    font-size: 18px;
+    background-color: transparent;
+    padding-left: 32px;
+    border-bottom: solid #A36180 1px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #A36180;
 
 }
 
@@ -53,9 +76,11 @@ input::placeholder{
 }
 
 .container-info{
-    gap: 20px;
+    gap: 140px;
+}
+
+.container-info, .container-btn{
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
 }
@@ -64,4 +89,17 @@ input:focus{
     border:none;
     outline: none;
     border-bottom: solid #A36180;
+}
+
+.container-info button{
+    border: none;
+}
+
+.container-btn p{
+    font-size: 14px;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.container-btn{
+    gap: 18px;
 }

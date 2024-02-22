@@ -1,12 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Roboto+Condensed&family=Titan+One&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Roboto+Condensed&family=Titan+One&display=swap"
+        rel="stylesheet">
 
     <link rel="icon" class="icon" href="../img/flor.png">
     <link rel="stylesheet" href="../css/botao.css">
@@ -14,41 +17,48 @@
     <link rel="stylesheet" href="../css/add.tarefa.css">
     <title>Adicione nova tarefa</title>
 </head>
+
 <body>
-    
-  <header>
-      <img src="../img/Group 4.png" alt="">
-      <div class="container-titulo">
-        <h1>Adicionar tarefa</h1>
-      </div>   
-  </header>
 
-  <main>
-      <div class="container-criar-tarefa">
-          <div class="fundo">
-      <div class="left">
-            <label for="">Título</label>
-            <input type="text">
-
-            <label for="">Descrição</label>
-            <input type="text">
-
-            <label for="">Foto (opcional)</label>
-            <input type="text">
-
+    <header>
+        <img src="../img/Group 4.png" alt="">
+        <div class="container-titulo">
+            <h1>Adicionar tarefa</h1>
         </div>
-           
-        <div class="right">
-            <label for="">Data início</label>
-            <input type="text">
+    </header>
 
-            <label for="">Data final</label>
-            <input type="text">
+    <main>
+        <div class="container-criar-tarefa">
+            <div class="fundo">
+                <form action="" method="get">
+                    <fieldset>
+                        <div class="left">
+                            <label for="task-title">Título</label>
+                            <input type="text" id="task-title" required>
+        
+                            <label for="task-description">Descrição</label>
+                            <input type="text" id="task-description">
+        
+                            <label for="task-pic">
+                                Foto (opcional)
+                                <input type="file" id="task-pic" accept="image/*, image.png, image.jpeg, image.jpg">
+                            </label>
+                        </div>
+        
+                        <div class="right">
+                            <label for="task-date-inc">Data início</label>
+                            <input type="date" id="task-date-inc" required>
+        
+                            <label for="task-date-fin">Data final</label>
+                            <input type="date" id="task-date-fin">
+                            <button class="btn-default add-task" id="add-task" type="submit">Feito</button>
+                        </div>  
+                    </fieldset>
+                </form>
+            </div>
         </div>
-           
-          </div>
-      </div>
-  </main>
+    </main>
 
 </body>
+
 </html>
