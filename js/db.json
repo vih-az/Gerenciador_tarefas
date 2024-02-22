@@ -38,38 +38,155 @@
       "senha": "teste2",
       "telefone": "1234-5678",
       "id": 6
+    },
+    {
+      "nome": "vi",
+      "email": "vi@gmail.com",
+      "senha": "1234",
+      "telefone": "1234-5678",
+      "id": 7
     }
   ],
   "tarefas": [
     {
       "id": 1,
-      "descrição": "Limpar a Casa",
-      "dataConclusão": "31/01/2024",
+      "titulo": "Casa",
+      "descricao": "Limpar a Casa",
+      "dataConclusao": "31/01/2024",
       "idUsuario": 1
     },
     {
       "id": 2,
-      "descrição": "Aprender inglês",
-      "dataConclusão": "30/10/2024",
+      "titulo": "Inglês",
+      "descricao": "Aprender inglês",
+      "dataConclusao": "30/10/2024",
       "idUsuario": 1
     },
     {
       "id": 3,
-      "descrição": "Novo emprego",
-      "dataConclusão": "10/02/2024",
+      "titulo": "Emprego",
+      "descricao": "Novo emprego",
+      "dataConclusao": "10/02/2024",
       "idUsuario": 3
     },
     {
       "id": 4,
-      "descrição": "Viajar",
-      "dataConclusão": "05/03/2024",
+      "titulo": "Viajar",
+      "descricao": "Viajar",
+      "dataConclusao": "05/03/2024",
       "idUsuario": 2
     },
     {
       "id": 5,
-      "descrição": "Conhecer mais pessoas",
-      "dataConclusão": "20/05/2024",
+      "titulo": "Conhecer",
+      "descricao": "Conhecer mais pessoas",
+      "dataConclusao": "20/05/2024",
       "idUsuario": 3
+    },
+    {
+      "titulo": "sdsdf",
+      "descricao": "sdffd",
+      "foto": "C:\\fakepath\\cadeado.png",
+      "dataInicio": "2024-02-24",
+      "dataConclusao": "2024-03-08",
+      "id": 6
+    },
+    {
+      "titulo": "sdfsdf",
+      "descricao": "sdfsdfdsf",
+      "foto": "C:\\fakepath\\flor.png",
+      "dataInicio": "2024-02-23",
+      "dataConclusao": "2024-03-08",
+      "id": 7
+    },
+    {
+      "titulo": "dfsdfsdf",
+      "descricao": "sdfsdfsdf",
+      "foto": "C:\\fakepath\\image 15.png",
+      "dataInicio": "2024-02-23",
+      "dataConclusao": "2024-03-08",
+      "id": 8
+    },
+    {
+      "titulo": "sadasd",
+      "descricao": "asdasd",
+      "foto": "C:\\fakepath\\flor.png",
+      "dataInicio": "2024-02-23",
+      "dataConclusao": "2024-03-08",
+      "id": 9
+    },
+    {
+      "titulo": "sadasd",
+      "descricao": "dsfsdf",
+      "foto": "C:\\fakepath\\image 10.png",
+      "dataInicio": "2024-02-24",
+      "dataConclusao": "2024-02-27",
+      "id": 10
+    },
+    {
+      "titulo": "asdasd",
+      "descricao": "asdasda",
+      "foto": "C:\\fakepath\\flor.png",
+      "dataInicio": "2024-02-23",
+      "dataConclusao": "2024-02-28",
+      "id": 11
+    },
+    {
+      "titulo": "sdfsdf",
+      "descricao": "sdfsdf",
+      "foto": "C:\\fakepath\\flor.png",
+      "dataInicio": "2024-02-23",
+      "dataConclusao": "2024-02-28",
+      "id": 12
+    },
+    {
+      "titulo": "sdasd",
+      "descricao": "asdasd",
+      "foto": "C:\\fakepath\\flor.png",
+      "dataInicio": "2024-02-23",
+      "dataConclusao": "2024-02-29",
+      "id": 13
+    },
+    {
+      "titulo": "asdasd",
+      "descricao": "asdasd",
+      "foto": "C:\\fakepath\\flor.png",
+      "dataInicio": "2024-02-23",
+      "dataConclusao": "2024-02-29",
+      "id": 14
+    },
+    {
+      "titulo": "dsfsdf",
+      "descricao": "sdfsdf",
+      "foto": "C:\\fakepath\\flor.png",
+      "dataInicio": "2024-02-23",
+      "dataConclusao": "2024-02-29",
+      "id": 15
+    },
+    {
+      "titulo": "asdasd",
+      "descricao": "asdasd",
+      "foto": "C:\\fakepath\\flor.png",
+      "dataInicio": "2024-02-23",
+      "dataConclusao": "2024-02-24",
+      "id": 16
+    },
+    {
+      "titulo": "sdasdas",
+      "descricao": "asdasd",
+      "foto": "C:\\fakepath\\flor.png",
+      "dataInicio": "2024-02-23",
+      "dataConclusao": "2024-03-01",
+      "id": 17
+    },
+    {
+      "titulo": "asdasd",
+      "descricao": "asdasd",
+      "foto": "C:\\fakepath\\flor.png",
+      "dataInicio": "2024-02-23",
+      "dataConclusao": "2024-02-27",
+      "idUsuario": null,
+      "id": 18
     }
   ]
 }
