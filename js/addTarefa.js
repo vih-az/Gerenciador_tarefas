@@ -1,7 +1,7 @@
 'use strict'
 
 const botaoAddTarefa = document.getElementById('add-task')
-const idUser = localStorage.getItem('idUsuario')
+
 
 async function adcionarTarefa(){
     const tarefaTitulo = document.getElementById('task-title').value
@@ -9,6 +9,7 @@ async function adcionarTarefa(){
     const tarefaFoto = document.getElementById('task-pic').value
     const tarefaDataDeInicio = document.getElementById('task-date-inc').value
     const tarefaDataDeFim = document.getElementById('task-date-fin').value
+    const idUser = localStorage.getItem('idUsuario')
 
     if(tarefaTitulo == '' || tarefaDescricao == '' || tarefaDataDeInicio == '' || tarefaDataDeFim == ''){
         alert('Por favor, preencha todos os campos !!')
