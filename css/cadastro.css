@@ -72,3 +72,8 @@ fieldset{
     padding-right: 50px;
     padding-bottom: 15px;
 }
+
+button{
+    border: none;
+    cursor: pointer;
+}
