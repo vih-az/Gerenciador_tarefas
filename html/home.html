@@ -12,6 +12,8 @@
     <link rel="icon" class="icon" href="../img/flor.png">
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/home.css">
+
+    <script src="../js/home.js" defer></script>
     <title>Home</title>
 </head>
 
@@ -26,13 +28,53 @@
                 <div class="line"></div>
             </div>
             <div class="menu-search-trash-right-side-container">
-                <img src="../img/image 15.png" alt="" id="trash">
-                <img src="../img/image 16.png" alt="" id="search" height="34" width="34">
-                <img src="../img/image 13.png" alt="" id="menu">
+                <div>
+                    <img src="../img/image 15.png" alt="" id="trash"> 
+                </div>
+                <div>
+                    <img src="../img/image 16.png" alt="" id="search" height="34" width="34">
+                </div>
+                <div>
+                    <img src="../img/image 13.png" alt="" id="menu"> 
+                </div>
             </div>
         </div>
     </header>
-    <main></main>
+    <main>
+        <div class="main-container">
+            <div class="tasks-pendente-container">
+                <h1>Pendentes</h1>
+                <div class="tasks-pendentes">
+                    <div class="task-container">
+                        <img src="../img/image 7.png" alt="" id="task-photo">
+                        <h4 id="task-name">Limpar a casa</h4>
+                        <h5 id="task-description">Tenho que limpar quarto e banheiro</h5>
+                    </div>
+                    <div class="add-task-container">
+                        <a href="./add.tarefa.html">
+                            <img src="../img/image 12.png" alt="" id="add-task" height="134" width="134"> 
+                        </a>
+                        <h2>Adicionar nova tarefa</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="tasks-finalizadas-container">
+                <h1>Finalizadas</h1>
+                <div class="tasks-finalizadas">
+                    <div class="finalizadas-task-container">
+                        <img src="../img/image 10.png" alt="" id="task-photo">
+                        <h4 id="task-name">Aprender inglês</h4>
+                        <h5 id="task-description">Curso hoje as 18:00</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="div-img">
+            <img src="../img/Group 2.png" alt="">
+        </div>
+    </footer>
 </body>
 
 </html>
