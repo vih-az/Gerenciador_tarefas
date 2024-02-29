@@ -16,3 +16,18 @@ async function criarTarefa(){
     const descricaoTarefa = document.createElement('h5')
     descricaoTarefa.classList.add('task-description')
 }
+
+// ********* comentarios ***********
+
+
+var btn = document.getElementById("btn");
+btn.addEventListener("click", function() {
+    var div = document.getElementById("container");
+    
+  if(div.style.display === "none") {
+        div.style.display = "block";
+    } else {
+      div.style.display = "none";
+  }
+    
+});
