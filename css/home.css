@@ -85,6 +85,19 @@ main{
     border-radius: 10px;
 }
 
+.task-container #deletarTarefa{
+    align-self: flex-end;
+}
+
+.task-container{
+    justify-content: space-between;
+    padding: 4px;
+}
+
+.task-container img{
+    max-height: 50%;
+}
+
 .tasks-pendente-container h1, .tasks-finalizadas-container h1{
     font-size: 24px;
 }

@@ -239,6 +239,51 @@
       "dataConclusao": "2024-02-29",
       "idUsuario": "8",
       "id": 23
+    },
+    {
+      "titulo": "asdasd",
+      "descricao": "asdasd",
+      "foto": "",
+      "dataInicio": "2024-02-23",
+      "dataConclusao": "2024-03-01",
+      "idUsuario": "7",
+      "id": 24
+    },
+    {
+      "titulo": "sadsd",
+      "descricao": "sadsd",
+      "foto": "C:\\fakepath\\flor.png",
+      "dataInicio": "2024-03-02",
+      "dataConclusao": "2024-03-06",
+      "idUsuario": "7",
+      "id": 25
+    },
+    {
+      "titulo": "sasd",
+      "descricao": "sadsdd",
+      "foto": "",
+      "dataInicio": "2024-03-01",
+      "dataConclusao": "2024-03-03",
+      "idUsuario": "7",
+      "id": 26
+    },
+    {
+      "titulo": "dsdf",
+      "descricao": "sdfsdf",
+      "foto": "",
+      "dataInicio": "2024-03-02",
+      "dataConclusao": "2024-03-05",
+      "idUsuario": "7",
+      "id": 27
+    },
+    {
+      "titulo": "limpar a casa",
+      "descricao": "limpar a casa hojeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+      "foto": "",
+      "dataInicio": "2024-03-01",
+      "dataConclusao": "2024-03-03",
+      "idUsuario": "7",
+      "id": 28
     }
   ]
 }
