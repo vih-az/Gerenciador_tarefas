@@ -28,24 +28,25 @@ async function criarContainerTarefa(tarefa) {
     const iconeDeletarTarefa = document.createElement('img')
     iconeDeletarTarefa.setAttribute('id', 'deletarTarefa')
     iconeDeletarTarefa.src = 'https://img.icons8.com/?size=30&id=ypOzn2c4IIbr&format=png'
-    // iconeDeletarTarefa.addEventListener('click', deletarTarefa(tarefa.id))
+    iconeDeletarTarefa.addEventListener('click', async function(){deletarTarefa(tarefa.id)})
 
-    var btn = document.getElementById("btn");
-    var div = document.getElementById("container");
-    btn.addEventListener("click", function () {
-        if (div.style.display === "none") {
-            div.style.display = "block";
-        } else {
-            div.style.display = "none";
-        }
+    // var btn = document.getElementById("btn");
+    // var div = document.getElementById("container");
+    // btn.addEventListener("click", function () {
+    //     if (div.style.display === "none") {
+    //         div.style.display = "block";
+    //     } else {
+    //         div.style.display = "none";
+    //     }
 
-    })
+    // })
 
-    taskContainer.append(imgTarefa, tituloTarefa, descricaoTarefa, iconeDeletarTarefa, btn)
+    taskContainer.append(imgTarefa, tituloTarefa, descricaoTarefa, iconeDeletarTarefa)
     return taskContainer
 }
 
 // ********* comentarios ***********
+
 
 async function validarTarefa() {
     const url = 'http://localhost:5080/tarefas'
@@ -72,14 +73,16 @@ async function mostrarContainerTarefa() {
 }
 
 async function deletarTarefa(tarefa) {
-    const iconeDeletarTarefa = document.getElementById('deletarTarefa')
     try {
-        const url = `http://localhost:5080/tarefas${tarefa}`
-        const options = {
-            method: 'DELETE'
-        }
-        await fetch(url, options)
-        console.log('tarefa deletada com sucesso !!')
+        let respostaDeletar = prompt("Deseja deletar a tarefa?(s/n)")
+        if(respostaDeletar == 's'){
+            const url = `http://localhost:5080/tarefas/${tarefa}`
+            const options = {
+                method: 'DELETE'
+            }
+            await fetch(url, options)
+            alert('tarefa deletada com sucesso !!')    
+        }else if(respostaDeletar == 'n'){}
         // window.location.reload()
     } catch (error) {
         alert('não foi possível deletar a tarefa !!')
