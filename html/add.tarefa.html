@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="../css/botao.css">
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/add.tarefa.css">
+
+    <script src="../js/addTarefa.js" defer></script>
     <title>Adicione nova tarefa</title>
 </head>
 
@@ -33,25 +35,36 @@
                 <form action="" method="get">
                     <fieldset>
                         <div class="left">
-                            <label for="task-title">Título</label>
-                            <input type="text" id="task-title" required>
-        
-                            <label for="task-description">Descrição</label>
-                            <input type="text" id="task-description">
-        
-                            <label for="task-pic">
-                                Foto (opcional)
-                                <input type="file" id="task-pic" accept="image/*, image.png, image.jpeg, image.jpg">
-                            </label>
+                            <div>
+                                <label for="task-title">Título</label>
+                                <input type="text" id="task-title" required>
+                            </div>
+                            <div>
+                                <label for="task-description">Descrição</label>
+                                <textarea name="task-description" id="task-description" cols="30" rows="10"></textarea>
+                            </div>
+                            <div>
+                                <label for="task-pic">
+                                    Foto (opcional)
+                                    <input type="file" id="task-pic" accept="image/*, image.png, image.jpeg, image.jpg">
+                                </label>                                
+                            </div>
                         </div>
         
                         <div class="right">
-                            <label for="task-date-inc">Data início</label>
-                            <input type="date" id="task-date-inc" required>
-        
-                            <label for="task-date-fin">Data final</label>
-                            <input type="date" id="task-date-fin">
-                            <button class="btn-default add-task" id="add-task" type="submit">Feito</button>
+                            <div>
+                                <label for="task-date-inc">Data início</label>
+                                <input type="date" id="task-date-inc" required> 
+                            </div>
+                            <div>
+                                <label for="task-date-inc">Data início</label>
+                                <input type="date" id="task-date-inc" required>  
+                            </div>
+                            <div>
+                                <label for="task-date-fin">Data final</label>
+                                <input type="date" id="task-date-fin">
+                            </div>
+                            <button class="btn-default add-task" id="add-task" type="button">Feito</button>
                         </div>  
                     </fieldset>
                 </form>

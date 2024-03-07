@@ -12,6 +12,9 @@ async function validarLogin() {
 
             listUsers.forEach((user) => {
                 if (email === user.email && senha === user.senha) {
+                    localStorage.setItem("idUsuario", user.id)
+                    console.log(user.id);
+                    
                     alert('Usuario logado com sucesso !!!')
                     window.location.href = '../html/home.html'
 
