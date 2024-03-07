@@ -88,5 +88,11 @@ async function deletarTarefa(tarefa) {
         alert('não foi possível deletar a tarefa !!')
     }
 }
+
+window.history.pushState(null, null, window.location.href);
+window.onpopstate = function() {
+  window.history.pushState(null, null, window.location.href);
+};
+
 // iconeDeletarTarefa.addEventListener('click', deletarTarefa(tarefa))
 mostrarContainerTarefa()
