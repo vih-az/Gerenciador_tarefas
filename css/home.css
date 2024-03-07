@@ -161,11 +161,11 @@ h2{
 }
 
 .button-container{
-    /* position: absolute; */
-    /* left: 50px;
+    position: absolute;
+    left: 50px;
     bottom: 655px;
     height: 10vh;
-    width: 20vw; */
+    width: 20vw;
    
 }
 
