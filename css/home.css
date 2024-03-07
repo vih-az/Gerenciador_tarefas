@@ -51,12 +51,26 @@ h1{
 main{
     width: fit-content;
     padding-left: 133px;
+    display: flex;
+    /* gap: 50px; */
+    width: 100%;
+    
 }
 
 .main-container{
+    width: 20%;
     display: flex;
     flex-direction: column;
     gap: 87px;
+    
+}
+
+.teste{
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
 
 .tasks-pendente-container, .tasks-finalizadas-container{
@@ -135,6 +149,73 @@ h2{
     border-radius: 10px;
 }
 
+
+
+/* ******** comentarios ******** */
+
+.comentarios{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.button-container{
+    position: absolute;
+    left: 50px;
+    bottom: 655px;
+    height: 10vh;
+    width: 20vw;
+   
+}
+
+ .button-container button{
+    background-color:transparent;
+    border: none;
+}
+
+.coment{
+    height: 60vh;
+    width: 40vw;
+    background-color: #E7BDCC;  
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 18px;
+    gap: 18px;
+  
+} 
+
+h1{
+    color: #435D69;
+}
+
+input{
+    height: 8vh;
+    width: 26vw;
+    border: none;
+    border-radius: 10px;
+    padding-left: 10px;
+    background-color: #E2EEF5;
+}
+
+input:focus{
+border: none;
+outline: none;
+
+}
+
+button{
+    height: 6vh;
+    width: 10vw;
+    border: none;
+    border-radius: 10px;
+    color: #435D69;
+    font-family: 'Happy Monkey', system-ui;
+   
+}
+
 footer{
     width: fit-content;
     z-index: -1;
@@ -143,3 +224,12 @@ footer{
     display: flex;
     justify-content: end;
 }
+
+
+/* 
+.tasks-pendente-container button{
+display: flex;
+
+} */
+
+
